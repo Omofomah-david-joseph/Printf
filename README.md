@@ -1,6 +1,6 @@
 C - printf
 
-Ptintf project by Omofomah david joseph and Emmanuel Oneyeozu
+Printf project by Omofomah david joseph and Emmanuel Oneyeozu
 
 ** Authorized functions and macros used:
 	write (man 2 write),
