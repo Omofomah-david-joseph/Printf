@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-#define UNUSED_VARIABLES(x) (void)(x)
+#define UNUSED_VARIABLE(x) (void)(x)
 #define BUFF_SIZE 1024
 
 
@@ -52,6 +52,8 @@ int _printf(const char *format, ...);
 int keep_print(const char *alx, int *i,
 va_list list, char buffer[], int flags, int width, int precision, int size);
 
+void print_buff(char buffer[], int *buff_idx);
+
 
 
 int fetch_flags(const char *format, int *i);
@@ -59,6 +61,7 @@ int fetch_width(const char *format, int *i, va_list list);
 int fetch_precision(const char *format, int *i, va_list list);
 int fetch_size(const char *format, int *i);
 
+int is_digit_n(char c);
 
 
 
@@ -83,13 +86,13 @@ int print_unsigned_value(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int print_un_octal(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
-int print_un_hexadecimal(va_list types, char buffer[],
+int print_hexa_deci(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
-int print_hexa_upper(va_list types, char buffer[],
+int print_hexa_up(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
 int print_hexa(va_list types, char map_to[],
-char buffer[], int flags, char flag_ch, int width, int precision, int size);
+char buffer[], int flags, char flag_x, int width, int precision, int size);
 
 
 
@@ -100,7 +103,7 @@ int print_non_printable(va_list types, char buffer[],
 
 
 /* Funcion that print memory address */
-int print_pointer_add(va_list types, char buffer[],
+int print_pointer_ad(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
 
@@ -113,16 +116,33 @@ int print_rot13_string(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
 
+int write_unsgnd(int is_negative, int ind, char buffer[],
+	int flags, int width, int precision, int size);
+
+long int convert_size_unsgnd(unsigned long int num, int size);
+
+
+int print_integer(va_list types, char buffer[],
+	int flags, int width, int precision, int size);
+
+int write_number(int is_negative, int ind, char buffer[],
+	int flags, int width, int precision, int size);
+
+int write_num(int ind, char buffer[],
+	int flags, int width, int prec,
+	int length, char padd, char extra_c);
+
+long int convert_size_number(long int num, int size);
+
+int write_pointer(char buffer[], int ind, int length,
+        int width, int flags, char padd, char extra_c, int padd_start);
+
+int append_hexa_code(char ascii_code, char buffer[], int i);
+
+int is_printable(char c);
+
+
+
+
 
 #endif /* MAIN_H */
-
-
-
-
-
-
-
-
-
-
-

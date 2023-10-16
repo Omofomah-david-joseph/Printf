@@ -20,7 +20,7 @@ int keep_print(const char *alx, int *id, va_list list, char buffer[],
 		{'c', print_char}, {'s', print_string}, {'%', print_percent_sign},
 		{'i', print_integer}, {'d', print_integer}, {'b', print_un_binary},
 		{'u', print_unsigned_value}, {'o', print_un_octal}, {'x', print_hexa_deci},
-		{'X', print_hex_up}, {'p', print_pointer_ad}, {'S', print_non_printable},
+		{'X', print_hexa_up}, {'p', print_pointer_ad}, {'S', print_non_printable},
 		{'r', print_reverse}, {'R', print_rot13_string}, {'\0', NULL}
 	};
 	for (i = 0; alx_types[i].alx != '\0'; i++)
