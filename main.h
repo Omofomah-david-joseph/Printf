@@ -15,39 +15,31 @@
 #define C_HASH 8
 #define C_SPACE 16
 
-
-
 /* SIZES */
 #define C_LONG 3
 #define C_SHORT 2
 
-
-
 /**
- * struct alx - Struct op
- *
- * @alx: The format.
- * @se: The function associated.
+ * struct typ - Struct op
+ * @typ: The format.
+ * @em: The function associated.
  */
-struct alx
+struct typ
 {
-	char alx;
-	int (*se)(va_list, char[], int, int, int, int);
+	char typ;
+	int (*em)(va_list, char[], int, int, int, int);
 };
 
 
-
 /**
- * typedef struct alx alx_t - Struct op
- *
- * @alx: The format.
- * @alx_t: The function associated.
+ * typedef struct typ typ_t - Struct op
+ * @typ: The format.
+ * @typ_t: The function associated.
  */
-typedef struct alx alx_t;
+typedef struct typ typ_t;
 
 int _printf(const char *format, ...);
-int keep_print(const char *alx, int *i,
-va_list list, char buffer[], int flags, int width, int precision, int size);
+int flag_handler1(const char *, int *, va_list, char[], int, int, int, int);
 
 void print_buff(char buffer[], int *buff_idx);
 
