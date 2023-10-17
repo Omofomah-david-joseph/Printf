@@ -1,22 +1,19 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
 
-#define UNUSED_VARIABLE(x) (void)(x)
-#define BUFF_SIZE 1024
-
+#define NO(f) (void)(f)
 
 
 /* FLAGS */
-#define F_MINUS 1
-#define F_PLUS 2
-#define F_ZERO 4
-#define F_HASH 8
-#define F_SPACE 16
+#define C_MINUS 1
+#define C_PLUS 2
+#define C_ZERO 4
+#define C_HASH 8
+#define C_SPACE 16
 
 
 
