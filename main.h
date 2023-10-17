@@ -18,8 +18,8 @@
 
 
 /* SIZES */
-#define S_LONG 2
-#define S_SHORT 1
+#define C_LONG 3
+#define C_SHORT 2
 
 
 
