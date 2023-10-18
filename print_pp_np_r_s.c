@@ -2,7 +2,7 @@
 
 /****************** PRINT POINTER ******************/
 /**
- * print_p - It prints the value of a pointer variable
+ * print_p - Prints the value of a pointer variable
  * @args: List a of arguments
  * @lim: lim array to handle print
  * @flags:  Calculates active flags
@@ -54,7 +54,7 @@ int print_p(va_list args, char lim[],
 
 /************************* PRINT NON PRINTABLE *************************/
 /**
- * print_S - It prints ascii codes in hexa of non printable chars
+ * print_S - Prints ascii codes in hexa of non printable chars
  * @args: Lista of arguments
  * @lim: lim array to handle print
  * @flags:  Calculates active flags
@@ -94,7 +94,7 @@ int print_S(va_list args, char lim[],
 
 /************************* PRINT REVERSE *************************/
 /**
- * print_r - It prints reverse string.
+ * print_r - Prints reverse string.
  * @args: Lista of arguments
  * @lim: lim array to handle print
  * @flags:  Calculates active flags
@@ -137,7 +137,7 @@ int print_r(va_list args, char lim[],
 }
 /************************* PRINT A STRING IN ROT13 *************************/
 /**
- * print_R - It print a string in rot13.
+ * print_R - Print a string in rot13.
  * @args: Lista of arguments
  * @lim: lim array to handle print
  * @flags:  Calculates active flags
