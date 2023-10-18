@@ -2,7 +2,7 @@
 
 /************************* WRITE HANDLE *************************/
 /**
- * write_c - Prints a string
+ * write_c - It prints a string
  * @c: char types.
  * @lim: lim array to handle print
  * @flags:  Calculates active flags.
@@ -46,7 +46,7 @@ int write_c(char c, char lim[],
 
 /************************* WRITE NUMBER *************************/
 /**
- * write_fnumb - Prints a string
+ * write_fnumb - It prints a string
  * @negative: Lista of arguments
  * @ind: char types.
  * @lim: lim array to handle print
@@ -79,7 +79,7 @@ int write_fnumb(int negative, int ind, char lim[],
 }
 
 /**
- * write_fnum - Write a number using a bufffer
+ * write_fnum - It write a number using a bufffer
  * @ind: Index at which the number starts on the lim
  * @lim: lim
  * @flags: Flags
@@ -138,7 +138,7 @@ int write_fnum(int ind, char lim[],
 }
 
 /**
- * write_u - Writes an unsigned number
+ * write_u - It writes an unsigned number
  * @negative: Number indicating if the num is negative
  * @ind: Index at which the number starts in the lim
  * @lim: Array of chars
@@ -196,7 +196,7 @@ int write_u(int negative, int ind,
 }
 
 /**
- * write_p - Write a memory address
+ * write_p - It write a memory address
  * @lim: Arrays of chars
  * @ind: Index at which the number starts in the lim
  * @length: Length of number
