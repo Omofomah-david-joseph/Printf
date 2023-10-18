@@ -76,7 +76,7 @@ int print_s(va_list args, char lim[],
 }
 /************************* PRINT PERCENT SIGN *************************/
 /**
- * print_percent - Prints a percent sign
+ * print_percent - It prints a percent sign
  * @args: Lista of arguments
  * @lim: lim array to handle print
  * @flags:  Calculates active flags
@@ -99,7 +99,7 @@ int print_percent(va_list args, char lim[],
 
 /************************* PRINT INT *************************/
 /**
- * print_i_d - Print int
+ * print_i_d - It print int
  * @args: Lista of arguments
  * @lim: lim array to handle print
  * @flags:  Calculates active flags
@@ -143,7 +143,7 @@ int print_i_d(va_list args, char lim[],
 
 /************************* PRINT BINARY *************************/
 /**
- * print_b - Prints an unsigned number
+ * print_b - It prints an unsigned number
  * @args: Lista of arguments
  * @lim: lim array to handle print
  * @flags:  Calculates active flags
