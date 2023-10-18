@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * check_flags - It calculates active flags
+ * check_flags - Calculates active flags
  * @fstr: Formatted string in which to print the arguments
  * @i: take a parameter.
  * Return: Flags:
@@ -36,7 +36,7 @@ int check_flags(const char *fstr, int *i)
 #include "main.h"
 
 /**
- * check_precision - It calculates the precision for printing
+ * check_precision - Calculates the precision for printing
  * @fstr: Formatted string in which to print the arguments
  * @i: List of arguments to be printed.
  * @fargs: list of arguments.
@@ -78,7 +78,7 @@ int check_precision(const char *fstr, int *i, va_list fargs)
 #include "main.h"
 
 /**
- * check_size -It calculates the size to cast the argument
+ * check_size -Calculates the size to cast the argument
  * @fstr: Formatted string in which to print the arguments
  * @i: List of arguments to be printed.
  *
@@ -105,7 +105,7 @@ int check_size(const char *fstr, int *i)
 #include "main.h"
 
 /**
- * check_width - It calculates the width for printing
+ * check_width - Calculates the width for printing
  * @fstr: Formatted string in which to print the arguments.
  * @i: List of arguments to be printed.
  * @fargs: list of arguments.
