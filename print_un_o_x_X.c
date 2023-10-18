@@ -2,7 +2,7 @@
 
 /************************* PRINT UNSIGNED NUMBER *************************/
 /**
- * print_u - Prints an unsigned number
+ * print_u - It prints an unsigned number
  * @args: List a of arguments
  * @lim: lim array to handle print
  * @flags:  Calculates active flags
@@ -37,7 +37,7 @@ int print_u(va_list args, char lim[],
 
 /************* PRINT UNSIGNED NUMBER IN OCTAL  ****************/
 /**
- * print_o - Prints an unsigned number in octal notation
+ * print_o - It prints an unsigned number in octal notation
  * @args: Lista of arguments
  * @lim: lim array to handle print
  * @flags:  Calculates active flags
@@ -79,7 +79,7 @@ int print_o(va_list args, char lim[],
 
 /************** PRINT UNSIGNED NUMBER IN HEXADECIMAL **************/
 /**
- * print_x - Prints an unsigned number in hexadecimal notation
+ * print_x - It prints an unsigned number in hexadecimal notation
  * @args: Lista of arguments
  * @lim: lim array to handle print
  * @flags:  Calculates active flags
@@ -97,7 +97,7 @@ int print_x(va_list args, char lim[],
 
 /************* PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL **************/
 /**
- * print_X - Prints an unsigned number in upper hexadecimal notation
+ * print_X - It prints an unsigned number in upper hexadecimal notation
  * @args: Lista of arguments
  * @lim: lim array to handle print
  * @flags:  Calculates active flags
@@ -115,7 +115,7 @@ int print_X(va_list args, char lim[],
 
 /************** PRINT HEXX NUM IN LOWER OR UPPER **************/
 /**
- * print_fhex - Prints a hexadecimal number in lower or upper
+ * print_fhex - It prints a hexadecimal number in lower or upper
  * @args: Lista of arguments
  * @map_to: Array of values to map the number to
  * @lim: lim array to handle print
