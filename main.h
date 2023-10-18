@@ -16,18 +16,18 @@
 #define C_SPACE 16
 
 /* SIZES */
-#define C_LONG 3
-#define C_SHORT 2
+#define C_LONG 4
+#define C_SHORT 3
 
 /**
  * struct typ - Struct op
  * @typ: The format.
- * @em: The function associated.
+ * @fa: The function associated.
  */
 struct typ
 {
 	char typ;
-	int (*em)(va_list, char[], int, int, int, int);
+	int (*fa)(va_list, char[], int, int, int, int);
 };
 
 
