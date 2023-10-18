@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * flag_handler1 - It prints an argument based on its type
+ * flag_handler1 - Prints an argument based on its type
  * @typ: Formatted string in which to print the arguments.
  * @fargs: List of arguments to be printed.
  * @ind: ind.
