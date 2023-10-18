@@ -78,7 +78,7 @@ int check_precision(const char *fstr, int *i, va_list fargs)
 #include "main.h"
 
 /**
- * check_size -Calculates the size to cast the argument
+ * check_size - Calculates the size to cast the argument
  * @fstr: Formatted string in which to print the arguments
  * @i: List of arguments to be printed.
  *
