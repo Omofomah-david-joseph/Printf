@@ -116,4 +116,4 @@ We welcome feedback, suggestions, and contributions to improve and extend the fu
 ## Authors
 
 - Omofomah David Joseph
-- Emmanuel Oneyeozu
+- Onyeozu Emmanuel
